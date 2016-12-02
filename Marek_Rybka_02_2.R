@@ -1,0 +1,5 @@
+islandia <- data.frame(Procenty = c("57%","19%","10%","10%","4%"), stringsAsFactors = FALSE)
+liczba <- c("570","190","100","100","40")
+islandia <- cbind(islandia, liczba)
+sumarycznie <-c(345*57/100, 345*19/100,345*10/100,345*10/100,345*4/100)
+islandia <- cbind(islandia,sumarycznie)
